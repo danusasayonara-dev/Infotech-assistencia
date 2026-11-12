@@ -1,0 +1,22 @@
+INFOTECH ASSISTÊNCIA — APLICATIVO PARTICULAR
+
+CONTEÚDO
+- index.html: aplicativo
+- manifest.webmanifest e ícones: instalação como PWA
+- sw.js: suporte básico offline
+
+COMO INSTALAR NO IPHONE
+1. Publique estes arquivos em uma hospedagem HTTPS (por exemplo, GitHub Pages).
+2. No iPhone, abra o endereço publicado pelo Safari.
+3. Toque em Compartilhar.
+4. Escolha "Adicionar à Tela de Início".
+5. Confirme. O ícone Infotech aparecerá na tela inicial.
+
+IMPORTANTE SOBRE OS DADOS
+Esta versão inicial salva os dados no armazenamento local do navegador/iPhone.
+Ela NÃO possui sincronização automática na nuvem nem login ainda.
+Use Caixa > Exportar backup regularmente e guarde o arquivo em local seguro.
+Não limpe os dados do Safari nem desinstale/limpe os dados do site sem antes exportar o backup.
+
+A hospedagem HTTPS é necessária para instalação PWA e funcionamento offline.
+A publicação na App Store não está incluída.
