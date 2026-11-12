@@ -1,22 +1,15 @@
-INFOTECH ASSISTÊNCIA — APLICATIVO PARTICULAR
+INFOTECH ASSISTÊNCIA — ATUALIZAÇÃO V2
 
-CONTEÚDO
-- index.html: aplicativo
-- manifest.webmanifest e ícones: instalação como PWA
-- sw.js: suporte básico offline
+Conteúdo: index.html, manifest.webmanifest, sw.js e ícones.
 
-COMO INSTALAR NO IPHONE
-1. Publique estes arquivos em uma hospedagem HTTPS (por exemplo, GitHub Pages).
-2. No iPhone, abra o endereço publicado pelo Safari.
-3. Toque em Compartilhar.
-4. Escolha "Adicionar à Tela de Início".
-5. Confirme. O ícone Infotech aparecerá na tela inicial.
+INSTALAÇÃO/ATUALIZAÇÃO
+1. Faça backup dos dados no menu Caixa antes de substituir os arquivos.
+2. No GitHub, abra o repositório do aplicativo e substitua os arquivos pelos desta pasta.
+3. Confirme o envio/commit e aguarde o GitHub Pages publicar.
+4. No iPhone, feche o aplicativo instalado e abra o endereço do site no Safari. Atualize a página. Se a versão antiga continuar aparecendo, remova o atalho da tela inicial e adicione-o novamente pelo botão Compartilhar > Adicionar à Tela de Início.
 
-IMPORTANTE SOBRE OS DADOS
-Esta versão inicial salva os dados no armazenamento local do navegador/iPhone.
-Ela NÃO possui sincronização automática na nuvem nem login ainda.
-Use Caixa > Exportar backup regularmente e guarde o arquivo em local seguro.
-Não limpe os dados do Safari nem desinstale/limpe os dados do site sem antes exportar o backup.
-
-A hospedagem HTTPS é necessária para instalação PWA e funcionamento offline.
-A publicação na App Store não está incluída.
+IMPORTANTE
+- Os dados continuam salvos localmente neste navegador/iPhone (localStorage). Não há login nem sincronização em nuvem configurados.
+- Exporte backups regularmente. Não use dados reais de clientes em dispositivos compartilhados.
+- O termo de não retirada foi redigido como ciência do prazo e previsão de medidas legalmente cabíveis; não concede venda automática do aparelho.
+- A impressão dos relatórios e termos é feita pelo recurso de impressão do navegador; escolha “Salvar em PDF” ou uma impressora.
