@@ -1,15 +1,33 @@
-INFOTECH ASSISTÊNCIA — ATUALIZAÇÃO V2
+INFOTECH ASSISTÊNCIA — VERSÃO INICIAL V3
 
-Conteúdo: index.html, manifest.webmanifest, sw.js e ícones.
+ARQUIVOS
+- index.html: aplicativo
+- manifest.webmanifest: configuração PWA
+- sw.js: cache/offline básico
 
-INSTALAÇÃO/ATUALIZAÇÃO
-1. Faça backup dos dados no menu Caixa antes de substituir os arquivos.
-2. No GitHub, abra o repositório do aplicativo e substitua os arquivos pelos desta pasta.
-3. Confirme o envio/commit e aguarde o GitHub Pages publicar.
-4. No iPhone, feche o aplicativo instalado e abra o endereço do site no Safari. Atualize a página. Se a versão antiga continuar aparecendo, remova o atalho da tela inicial e adicione-o novamente pelo botão Compartilhar > Adicionar à Tela de Início.
+COMO PUBLICAR NO GITHUB PAGES
+1. Abra seu repositório no GitHub.
+2. Entre na pasta principal (raiz).
+3. Envie os três arquivos deste ZIP, substituindo arquivos antigos de mesmo nome.
+4. Faça Commit changes.
+5. Aguarde o GitHub Pages atualizar e abra o endereço do site no iPhone.
+6. No Safari, use Compartilhar > Adicionar à Tela de Início.
 
-IMPORTANTE
-- Os dados continuam salvos localmente neste navegador/iPhone (localStorage). Não há login nem sincronização em nuvem configurados.
-- Exporte backups regularmente. Não use dados reais de clientes em dispositivos compartilhados.
-- O termo de não retirada foi redigido como ciência do prazo e previsão de medidas legalmente cabíveis; não concede venda automática do aparelho.
-- A impressão dos relatórios e termos é feita pelo recurso de impressão do navegador; escolha “Salvar em PDF” ou uma impressora.
+RECURSOS DESTA BASE
+- Painel inicial
+- Cadastro de clientes e consulta resumida de histórico
+- Ordens de serviço vinculadas a cliente cadastrado
+- Status de OS e comprovante imprimível com texto de garantia
+- Registro de vendas de celulares novos, seminovos e produtos
+- Estoque com entrada/saída e alerta de mínimo
+- Caixa manual com exclusão mediante confirmação
+- Serviços para lojistas
+- Relatório financeiro básico para impressão/PDF
+- Backup JSON manual e restauração
+- PWA com cache offline básico
+
+LIMITAÇÕES IMPORTANTES
+- Dados armazenados somente no navegador/dispositivo via localStorage. Não há login, banco de dados em nuvem, sincronização entre aparelhos ou backup automático.
+- Não armazene dados reais de clientes em repositório público do GitHub. O código pode ser público, mas os dados ficam no navegador; proteja os backups JSON.
+- Esta é uma base funcional inicial, não a versão completa de gestão. Integrações financeiras completas, relatórios detalhados, contas a pagar/receber, estoque integrado às vendas, metas/cofrinhos, alertas programados, controle avançado de garantia e sincronização precisam de implementação adicional.
+- A regra de status e comprovante é operacional; revise termos jurídicos antes de usar documentos com clientes. O comprovante não elimina direitos legais do consumidor.
