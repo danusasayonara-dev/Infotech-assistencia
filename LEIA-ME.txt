@@ -1,15 +1,27 @@
-INFOTECH ASSISTÊNCIA — ATUALIZAÇÃO V2
+INFOTECH ASSISTÊNCIA — VERSÃO COMPLETA OFFLINE (BASE V2)
 
-Conteúdo: index.html, manifest.webmanifest, sw.js e ícones.
+Esta versão mantém a identidade visual/layout da V2 e acrescenta recursos de gestão:
+- Orçamentos com cadastro, edição e exclusão.
+- Botões de editar/excluir nos cadastros principais.
+- Seleção de cliente previamente cadastrado para abrir OS e orçamento.
+- Painel com entradas, saídas, resultado estimado, OS abertas/prontas e alerta de estoque baixo.
+- Busca rápida por cliente, OS, orçamento, venda e produto.
+- Campos de entrega/Uber na OS, com identificação de quem pagou.
+- Comprovante com prazo de garantia e vencimento por dias corridos: 30, 90, 180 ou 365 dias.
+- Salvamento local automático e cópia de segurança local, além do backup JSON manual já existente.
+- Exclusão de cliente com histórico vinculado é bloqueada para preservar o histórico.
+- Edição de lançamentos financeiros refaz os lançamentos vinculados para reduzir duplicidades.
 
-INSTALAÇÃO/ATUALIZAÇÃO
-1. Faça backup dos dados no menu Caixa antes de substituir os arquivos.
-2. No GitHub, abra o repositório do aplicativo e substitua os arquivos pelos desta pasta.
-3. Confirme o envio/commit e aguarde o GitHub Pages publicar.
-4. No iPhone, feche o aplicativo instalado e abra o endereço do site no Safari. Atualize a página. Se a versão antiga continuar aparecendo, remova o atalho da tela inicial e adicione-o novamente pelo botão Compartilhar > Adicionar à Tela de Início.
+LIMITAÇÕES IMPORTANTES
+- Esta é uma aplicação estática/offline-first. Login individual, sincronização entre dispositivos e backup automático em nuvem NÃO podem ser ativados sem configurar um backend (por exemplo, Supabase/Firebase), criar credenciais privadas e regras de segurança. Não publique dados de clientes em repositório público.
+- A cópia automática é local no mesmo navegador/dispositivo; não substitui backup externo.
+- A edição de registros usa caixas de diálogo do navegador para alterar campos. Recomenda-se conferir valores e relatórios antes de usar no caixa real.
+- O cadastro não possui integração bancária, emissão fiscal ou envio automático de mensagens.
+- Excluir um cliente que possua OS/vendas/orçamentos vinculados é bloqueado para não apagar o histórico.
+- Antes de substituir sua versão em uso, exporte um backup JSON e teste a nova versão com registros fictícios.
 
-IMPORTANTE
-- Os dados continuam salvos localmente neste navegador/iPhone (localStorage). Não há login nem sincronização em nuvem configurados.
-- Exporte backups regularmente. Não use dados reais de clientes em dispositivos compartilhados.
-- O termo de não retirada foi redigido como ciência do prazo e previsão de medidas legalmente cabíveis; não concede venda automática do aparelho.
-- A impressão dos relatórios e termos é feita pelo recurso de impressão do navegador; escolha “Salvar em PDF” ou uma impressora.
+INSTALAÇÃO
+1. Baixe e descompacte o ZIP.
+2. Faça backup JSON da versão atual.
+3. Envie o conteúdo da pasta infotech_assistencia_app para a raiz do repositório GitHub Pages, substituindo os arquivos antigos.
+4. Aguarde a publicação. No iPhone, feche o app e abra novamente; se necessário, remova o app da tela inicial e adicione o site novamente.
